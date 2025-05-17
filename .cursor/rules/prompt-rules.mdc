@@ -1,0 +1,21 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+**IMPORTANTE**: Para cada interacción con cualquiera de de el usuario con cualquier agente a través de el chat **SIEMPRE** registrar el prompt del usuario y la respuesta completa del agente en la carpeta "prompts" y el fichero "prompts-DAD.md" con el formato:
+```markdown
+## Prompt [Número]
+**Fecha:** [fecha]
+**Modelo:** [modelo de IA utilizado]
+
+**Usuario:** 
+[prompt introducido por el usuario]
+
+**Asistente:**
+[prompt completo de salida del agente]
+```
+**ESTO ES IMPORTANTE REALIZARLO SIEMPRE DESPUES DE CADA INTERACCIÓN QUE SE REALICE CON EL CHAT**
+
+
+**ES IMPORTANTE QUE EN LA SALIDA [prompt completo de salida del agente] SE VEA REFLEJADA LA SALIDA COMPLETA DEL CHAT DE PRINCIPIO A FIN**
